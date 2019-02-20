@@ -6,6 +6,9 @@ $(document).ready(function() {
 	$(window).resize(function(){
 		heightDetect();
 	});
+	$(".sandwich, .menu_item").click(function() {
+  $(".sandwich").toggleClass("active");
+});
 });
 $(window).load(function() { 
 	$(".loader_inner").fadeOut(); 

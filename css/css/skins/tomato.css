@@ -20,8 +20,13 @@ p {
 .main_color_bg {
   background-color: #222; }
 
-svg path {
-  fill: #222; }
+svg {
+  height: 80px;
+  width: 80px;
+  z-index: 100;
+  position: relative; }
+  svg path {
+    fill: #222; }
 
 .toggle_mnu {
   background-color: #222; }
