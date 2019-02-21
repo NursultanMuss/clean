@@ -6,8 +6,23 @@ $(document).ready(function() {
 	$(window).resize(function(){
 		heightDetect();
 	});
-	$(".sandwich, .menu_item").click(function() {
+$(".toggle_mnu").click(function() {
   $(".sandwich").toggleClass("active");
+});
+$(".top_mnu ul a").click(function () {
+	$(".top_mnu").fadeOut(500);
+	$(".sandwich").toggleClass("active");
+
+}).append("<span></span>");
+$(".toggle_mnu").click(function () {
+    if($(".top_mnu").is(":visible")){
+        $(".top_mnu").fadeOut(500);
+		$(".top_mnu li a").removeClass("fadeInUp animated");
+    }else{
+        $(".top_mnu").fadeIn(500);
+		$(".top_mnu li a").addClass("fadeInUp animated");
+    }
+
 });
 });
 $(window).load(function() { 
