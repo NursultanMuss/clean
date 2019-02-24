@@ -4,7 +4,7 @@
     <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileName$:$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
-      <option name="description" />
+      <option name="description" value="" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="sass" />
       <option name="immediateSync" value="true" />
@@ -14,11 +14,10 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="C:/Program Files (x86)/Koala/Koala" />
-      <option name="runOnExternalChanges" value="true" />
+      <option name="program" value="C:/Program Files (x86)/Koala/Koala.exe" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="$FileDir$" />
+      <option name="workingDir" value="D:\OpenServer\domains\clean\css" />
       <envs />
     </TaskOptions>
   </component>
