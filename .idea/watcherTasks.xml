@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTasksOptions">
-    <TaskOptions isEnabled="true">
+    <TaskOptions isEnabled="false">
       <option name="arguments" value="$FileName$:$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="" />
@@ -15,9 +15,10 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="C:/Program Files (x86)/Koala/Koala.exe" />
+      <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="D:\OpenServer\domains\clean\css" />
+      <option name="workingDir" value="D:/OpenServer/domains/clean/css" />
       <envs />
     </TaskOptions>
   </component>

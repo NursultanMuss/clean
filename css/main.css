@@ -103,7 +103,7 @@ section {
   .toggle_mnu span {
     display: block; }
 
-svg {
+svg#svg2 {
   height: 60px;
   width: 60px;
   z-index: 150;
@@ -303,5 +303,11 @@ section.s_about .social_wrap li {
   display: inline-block;
   font-size: 20px;
   padding: 0 3px; }
+
+.section_content .left {
+  text-align: right;
+  border-right: #d2d2d2 1px solid; }
+.section_content .right {
+  text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
