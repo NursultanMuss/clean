@@ -310,4 +310,9 @@ section.s_about .social_wrap li {
 .section_content .right {
   text-align: left; }
 
+.s_services_item {
+  margin-bottom: 20px; }
+  .s_services_item .logo_img {
+    height: 96px; }
+
 /*# sourceMappingURL=main.css.map */
