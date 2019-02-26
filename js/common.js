@@ -1,10 +1,12 @@
 $(document).ready(function() {
+	$('#portfolio_grid').mixItUp();
+
 	$(".s_portfolio li").click(function () {
 		$(".s_portfolio li").removeClass("active");
 		$(this).addClass("active");
 	});
-	$('.portfolio_items').mixItUp();
 	$('.popup').magnificPopup({type:'image'});
+	$('.popup_content').magnificPopup({type:'inline', midClick:true, showCloseBtn:true});
 	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
 	$(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
 	$(".animation_2").animated("fadeInLeft", "fadeOutLeft");
