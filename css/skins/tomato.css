@@ -62,4 +62,11 @@ section h3 {
 section.s_about p:nth-child(even) {
   color: #FF6347; }
 
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+  .s_portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */

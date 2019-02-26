@@ -14,7 +14,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.container .left{
+		text-align: left;
+	}
+	.s_services_item p{
+		margin: 0 0 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */

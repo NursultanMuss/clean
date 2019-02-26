@@ -65,4 +65,10 @@ section
 section.s_about
 	p:nth-child(even)
 		color: $color
-.section_content
+.s_portfolio
+	li
+		color: $text_color
+		+kerning(2)
+		&.active
+			color: #fff
+			border-bottom: 1px solid $color

@@ -315,4 +315,23 @@ section.s_about .social_wrap li {
   .s_services_item .logo_img {
     height: 96px; }
 
+.s_services_item:last-child {
+  margin-bottom: 0; }
+  .s_services_item:last-child p:last-child {
+    margin-bottom: 0; }
+
+.s_portfolio ul,
+.s_portfolio li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+.s_portfolio li {
+  display: inline-block;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 2; }
+
 /*# sourceMappingURL=main.css.map */
