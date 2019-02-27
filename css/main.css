@@ -304,10 +304,10 @@ section.s_about .social_wrap li {
   font-size: 20px;
   padding: 0 3px; }
 
-.section_content .left {
+.resume_container .left {
   text-align: right;
   border-right: #d2d2d2 1px solid; }
-.section_content .right {
+.resume_container .right {
   text-align: left; }
 
 .s_services_item {
@@ -379,14 +379,18 @@ section.s_about .social_wrap li {
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 20px; }
+    margin-top: 20px;
+    padding-top: 25px; }
   .podrt_descr p {
     margin-top: 0; }
   .podrt_descr img {
     width: 100%;
-    margin-top: 20px; }
+    margin-top: 10px; }
 
 .controls {
   margin-bottom: 70px; }
+
+.modal-box-content {
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */

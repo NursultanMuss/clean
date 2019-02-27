@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$(this).addClass("active");
 	});
 	$('.popup').magnificPopup({type:'image'});
-	$('.popup_content').magnificPopup({type:'inline', midClick:true, showCloseBtn:true});
+	$('.popup_content').magnificPopup({type:'inline', midClick:true, showCloseBtn:true, closeBtnInside: true});
 	$(".top_text h1").animated("fadeInDown", "fadeOutUp");
 	$(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
 	$(".animation_2").animated("fadeInLeft", "fadeOutLeft");
@@ -41,6 +41,10 @@ $(".toggle_mnu").click(function () {
     }
 
 });
+    $(".portfolio_item").each(function(i){
+        $(this).find("a").attr("href", "#work_"+ i);
+        $(this).find(".podrt_descr").attr("id", "work_"+ i);
+    });
 });
 $(window).load(function() { 
 	$(".loader_inner").fadeOut(); 
