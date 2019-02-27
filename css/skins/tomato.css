@@ -73,4 +73,7 @@ section.s_about p:nth-child(even) {
   border-color: #FF6347;
   color: #FF6347; }
 
+.main_footer a {
+  color: #FF6347; }
+
 /*# sourceMappingURL=tomato.css.map */

@@ -280,6 +280,11 @@ body {
   padding: 50px 0;
   font-size: 13px;
   font-weight: 300; }
+  .main_footer .social_wrap {
+    float: right;
+    line-height: 0; }
+    .main_footer .social_wrap ul {
+      margin: 0; }
 
 .logo_center {
   text-align: center;
@@ -339,7 +344,7 @@ section.s_about .social_wrap li {
 
 .portfolio_item {
   padding: 0;
-  height: 210px;
+  height: 200px;
   overflow: hidden; }
   .portfolio_item img {
     width: 100%; }
@@ -392,5 +397,12 @@ section.s_about .social_wrap li {
 
 .modal-box-content {
   position: relative; }
+
+.main_footer .social_wrap {
+  float: right; }
+.main_footer .social_wrap li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 3px; }
 
 /*# sourceMappingURL=main.css.map */
