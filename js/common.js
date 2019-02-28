@@ -45,6 +45,8 @@ $(".toggle_mnu").click(function () {
         $(this).find("a").attr("href", "#work_"+ i);
         $(this).find(".podrt_descr").attr("id", "work_"+ i);
     });
+	$("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
+	$(".top_mnu ul a").mPageScroll2id();
 });
 $(window).load(function() { 
 	$(".loader_inner").fadeOut(); 
